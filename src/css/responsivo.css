@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+    .menu-cardapio {
+        width: calc(100% - 40px);
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .texto-info-cardapio{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .header .title {
+        font-size: 24px;
+    }
+
+    .titulo-cardapio {
+        margin-top: 30px;
+    }
+}

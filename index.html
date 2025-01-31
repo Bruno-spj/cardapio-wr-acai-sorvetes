@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/logo-img.jpeg"
+      type="image/x-icon"
+    />
+
+    <title>Cardápio - WR - Açai e Sorvetes</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="hero">
+        <img class="logo" src="./src/assets/logo-img.jpeg" alt="" />
+
+        <h1 class="title">WR - Açai e Sorvetes</h1>
+        <p>Rua DR José Mauricio, 766 Paulista - PE</p>
+
+        <div class="horario-funcionamento" id="data-span">
+          <span> Seg á Dom - 18:00 ás 22:00 </span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="titulo-cardapio">Conheça Nosso Cardápio</h2>
+      <section class="cardapio">
+        <div id="menu">
+          <div class="menu-cardapio">
+            <img
+              class="img-cardapio"
+              src="./src/assets/acai-g-img.jpeg"
+              alt=""
+            />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Açai - Tradicional - P (300ml)</h3>
+              <p class="texto-info-cardapio">
+                Imagem ilustrativa. Delicioso açaí com até 3 acompanhamentos, 2 tipos de frutas e 1 sabor de cobertura a sua escolha! Observação: Não mandamos os acompanhamentos separados! <br>Serve até 1 pessoa.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 14,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Açai Tradicional - P"
+                  data-price="14.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img
+              class="img-cardapio"
+              src="./src/assets/acai-g-img.jpeg"
+              alt=""
+            />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Açai - Tradicional - M (500ml)</h3>
+              <p class="texto-info-cardapio">
+                Imagem ilustrativa. Delicioso açaí com até 4 acompanhamentos, 2 tipos de frutas e 1 sabor de cobertura a sua escolha! Observação: Não mandamos os acompanhamentos separados! <br>Serve até 2 pessoas.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 19,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Açai Tradicional - M"
+                  data-price="19.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img
+              class="img-cardapio"
+              src="./src/assets/acai-g-img.jpeg"
+              alt=""
+            />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Açai - Tradicional - G (700ml)</h3>
+              <p class="texto-info-cardapio">
+                Imagem ilustrativa. Delicioso açaí com até 5 acompanhamentos, 2 tipos de frutas e 1 sabor de cobertura a sua escolha! Observação: Não mandamos os acompanhamentos separados! <br>Serve até 3 pessoas.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 24,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Açai Tradicional - G"
+                  data-price="24.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img
+              class="img-cardapio"
+              src="./src/assets/coxinha-img.jpeg"
+              alt=""
+            />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Coxinha de Frango</h3>
+              <p class="texto-info-cardapio">
+                Imagem ilustrativa. Uma irresistível massa sequinha e crocante por fora, recheada com frango desfiado temperado! <br>Serve até 1 pessoa.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 6,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Coxinha de Frango"
+                  data-price="6.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-1.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Duplo</h3>
+              <p class="texto-info-cardapio">
+                Imagem ilustrativa. Pão brioche amanteigado, hambúrguer 120g 2x, queijo cheddar 2x, maionese caseira, alface, tomate e cebola caramelizada <br>Serve até 1 pessoa.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 25,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Duplo"
+                  data-price="25.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-2.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Bacon</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 20,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Bacon"
+                  data-price="20.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-3.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Egg</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 15,90</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Egg"
+                  data-price="15.90"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-4.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Burguer Tradicional</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 20,90</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Burguer Tradicional "
+                  data-price="20.90"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-5.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Frango</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 17,90</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Frango"
+                  data-price="17.90"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-6.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Burguer</h3>
+              <p class="texto-info-cardapio">
+                Imagem ilustrativa. Pão brioche amanteigado, hambúrguer 120g, maionese caseira, alface, tomate e cebola caramelizada.<br>Serve até 1 pessoa.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 15,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Burguer"
+                  data-price="15.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-7.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Chicken</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 22,90</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Chicken"
+                  data-price="22.90"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/hamb-8.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">X - Salada</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 17,90</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="X - Salada"
+                  data-price="17.90"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/refri-2.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Guaraná Antarctica</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 10,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Guaraná Antarctica"
+                  data-price="10.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/refri-1.png" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Coca Cola 1L</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 12,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Coca Cola 1L"
+                  data-price="12.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/img-agua.jpeg" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Água Mineral</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 2,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Água Mineral"
+                  data-price="2.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-cardapio">
+            <img class="img-cardapio" src="./src/assets/img-coca-cola.jpg" alt="" />
+
+            <div class="info-cardapio">
+              <h3 class="titulo-item-cardapio">Coca-Cola 1L</h3>
+              <p class="texto-info-cardapio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                tempora dolor tempore eos? Sed quia totam enim ipsam illum omnis
+                doloribus, minima adipisci aliquam voluptates, dolore, veniam
+                unde delectus consequatur.
+              </p>
+
+              <div class="info-preco">
+                <p class="preco-cardapio">R$ 12,00</p>
+
+                <button
+                  class="add-to-cart-btn"
+                  data-name="Coca-Cola 1L"
+                  data-price="12.00"
+                >
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <div class="cart-carrinho" id="cart-modal">
+      <div class="cart-visual">
+        <h2>Meu Carrinho</h2>
+        <div id="cart-itens"></div>
+        <p>Total: <span id="cart-total">0.00</span></p>
+
+        <p>Endereço de entrega:</p>
+        <input
+          type="text"
+          placeholder="Digite seu endereço completo..."
+          id="address"
+        />
+        <p id="address-warn">Digite seu endereço completo!</p>
+        <div class="btn-visual-cart">
+          <button id="close-model-btn">Fechar</button>
+
+          <button id="checkout-btn">Finalizar pedido</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span id="cart-count"> (0) </span>
+      <span> Meu Carrinho </span>
+      <button class="btn-carrinho" id="cart-btn">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </button>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
